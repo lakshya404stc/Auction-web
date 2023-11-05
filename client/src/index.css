@@ -1,0 +1,287 @@
+/* font1 use font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+/* font 2 use font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box ;
+}
+
+/* navbar css */
+
+.navbar{
+  line-height: 26px;
+  box-shadow: 0px 8px 6px -6px gray;
+  text-transform:uppercase;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px ; 
+  border-bottom: solid gray !important;
+}
+
+.nav-link{
+  font-weight: 100;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.nav-link:hover{
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand{
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 25px;
+}
+
+/* footer css */
+.footer h4{
+  padding-top: 10px !important;;
+}
+
+.footer{
+  background: rgb(1,0,13,0.8);
+  font-family: 'Roboto', sans-serif !important;
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center !important;
+}
+
+.footer a{
+  text-decoration: none;
+  padding: 10px;
+  color:white;
+}
+
+.footer a:hover{
+  text-decoration:underline;
+  color:rgb(51,102,204)
+}
+
+.pnf{
+  min-height: 69vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction: column;
+}
+
+.pnf-title{
+  font-size:100px;
+  font-weight:700;
+}
+
+.pnf-heading{
+  font-weight:normal;
+}
+.pnf-btn{
+  background:white;
+  border:solid 1px black;
+  border-radius: 5px;
+  text-decoration: none;
+  color:black;
+  margin-top: 15px !important;
+  padding: 3px 8px 5px 8px;
+}
+
+.pnf-btn:hover{
+  background-color:rgb(1,0,13,0.8);
+  color:white;
+  text-decoration: underline;
+}
+
+/* contact us css */
+
+.contactus{
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  height:80vh;
+  
+  flex-direction:column;
+  padding: 0px !important;
+  margin:0px !important;
+}
+
+.contactus col{
+  padding: 0px !important;
+  margin:0px !important;
+}
+
+/* registeration form css */
+.registerationform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  flex-direction: column;
+}
+
+.registerationform h1{
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.registerationform div input{
+  width: 250px;
+  border: 1px solid black;
+  transition: white 0.3s;
+}
+
+.registerationform div input:hover::placeholder {
+  color:transparent;
+}
+
+.registerationform div{
+  display:block;
+  padding:3px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* register and login form btn style */
+
+.form-btn{
+  background:white;
+  border:solid 1px black;
+  border-radius: 5px;
+  text-decoration: none;
+  color:black;
+  margin-top: 15px !important;
+  padding: 3px 8px 5px 8px;
+  margin:0 auto;
+  display:block;
+}
+
+.form-btn:hover{
+  background-color:rgba(6, 2, 47, 0.8);
+  color:white;
+  text-decoration: none;
+}
+
+
+.navlink{
+  text-decoration: none;
+  padding: 10px;
+  color:rgba(6, 2, 47, 0.8);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding:0px !important;
+}
+
+.navlink:hover{
+  text-decoration:underline;
+  color:rgb(51,102,204)
+}
+
+.underline{
+  text-decoration:none !important;
+}
+
+
+
+/* nav optional links with no border bottom */
+
+
+.nav-optional {
+  color: #000;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.nav-optional:hover {
+  color: #333;
+}
+
+.nav-optional:focus {
+  color: #333;
+}
+
+.nav-optional.active {
+  color: #fff;
+  background-color: #000;
+}
+
+.nav-optional.disabled {
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.nav-optional.disabled:hover {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+.upload-photo-btn {
+  width: 150px; /* Set the width you want */
+  overflow: hidden;
+}
+
+.photo-name {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  max-width: 100%;
+}
+
+
+.img{
+  padding-bottom: 0px !important;
+}
+
+.img-btn{
+  border-radius: 2px;
+}
+
+
+
+.registerationform1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+  flex-direction: column;
+}
+
+.registerationform1 h1{
+  font-weight: 100;
+  margin-bottom: 25px;
+}
+
+.registerationform1 h4{
+  font-weight: 300;
+}
+.registerationform1 div input{
+  width: 250px;
+  border: 1px solid black;
+  transition: white 0.3s;
+}
+
+.registerationform1 div input:hover::placeholder {
+  color:transparent;
+}
+
+.registerationform1 div{
+  display:block;
+  padding:3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.overflow{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+}

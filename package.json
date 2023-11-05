@@ -1,0 +1,34 @@
+{
+  "name": "ecommerce-web",
+  "version": "1.0.0",
+  "description": "this is an ecom website",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js -e js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "lakshya",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-ws": "^5.0.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.6.0",
+    "morgan": "^1.10.0",
+    "react-helmet": "^6.1.0",
+    "slugify": "^1.6.6",
+    "socket.io": "^4.7.2",
+    "ws": "^8.14.2"
+  }
+}
